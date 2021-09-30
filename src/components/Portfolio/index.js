@@ -11,6 +11,8 @@ import {
 } from "@material-ui/core";
 import Horiseon from "../../assets/img/Horiseon.png";
 import passwordGen from "../../assets/img/passwordgen.png";
+import dinner from "../../assets/img/dinnernmovie.png";
+import hi5 from "../../assets/img/hi5.png";
 import useStyles from "../../style";
 
 const portfolio = [
@@ -27,6 +29,20 @@ const portfolio = [
     website: "https://riveradenisse.github.io/genmypassword/",
     image: passwordGen,
     repository: "https://github.com/RiveraDenisse/genmypassword",
+  },
+  {
+    Project: 3,
+    title: "Dinner-N-Movie",
+    website: "https://hsafiya.github.io/dinner_n_movie/",
+    image: dinner,
+    repository: "https://github.com/RiveraDenisse/dinner_n_movie",
+  },
+  {
+    Project: 4,
+    title: "Hi-5",
+    website: "https://evening-oasis-97339.herokuapp.com/",
+    image: hi5,
+    repository: "https://github.com/RiveraDenisse/high-five",
   },
 ];
 
