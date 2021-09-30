@@ -289,3 +289,12 @@ a {
 .navActive {
   color: var(--secondary);
 }
+
+/* portfolio */
+.apps {
+  height: 500px;
+  width: 500px;
+  margin-bottom: 50px;
+  text-align: center;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+}
