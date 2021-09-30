@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Nav from "./components/Nav";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
+import ContactForm from "./components/Contact";
 import "./App.css";
 import coverImage from "./assets/portfolioimage.png";
 
@@ -26,6 +27,7 @@ function App() {
           style={{ width: "50%" }}
           alt="Denisse Rivera"
         />
+        <ContactForm></ContactForm>
       </main>
     </div>
   );
