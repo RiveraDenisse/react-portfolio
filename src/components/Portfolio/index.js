@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 // import { capitalizeFirstLetter } from "../../utils/helpers";
 import {
   Typography,
@@ -9,7 +9,9 @@ import {
   Container,
   CardActions,
 } from "@material-ui/core";
-import Horiseon from "../../assets/Dinner-N-Movie.png";
+import Horiseon from "../../assets/img/Horiseon.png";
+import passwordGen from "../../assets/img/passwordgen.png";
+import useStyles from "../../style";
 
 const portfolio = [
   {
@@ -19,28 +21,35 @@ const portfolio = [
     image: Horiseon,
     repository: "https://github.com/RiveraDenisse/HoriseonW1",
   },
+  {
+    Project: 2,
+    title: "Password Generator",
+    website: "https://riveradenisse.github.io/genmypassword/",
+    image: passwordGen,
+    repository: "https://github.com/RiveraDenisse/genmypassword",
+  },
 ];
 
 function Gallery() {
-  const [classes] = useState([]);
+  const classes = useStyles();
   return (
     <div>
       <Container className={classes.cardGrid} maxWidth="xl">
         <Typography variant="h2">Projects</Typography>
-        <Grid container spacing={3} style={{ marginTop: "3rem" }}>
+        <Grid container spacing={4} style={{ marginTop: "4rem" }}>
           {portfolio.map((project, index) => (
             <Grid item key={index} xs={12} sm={6} md={4}>
               <Card className={classes.card} style={{ alignContent: "center" }}>
-                <CardMedia
-                  className={classes.cardMedia}
-                  image={project.image}
-                  title="Image title"
-                />
                 <CardContent className={classes.CardContent}>
-                  <Typography gutterBottom variant="h5">
+                  <Typography gutterBottom variant="h4">
                     {project.title}
                   </Typography>
                 </CardContent>
+                <CardMedia
+                  className={classes.cardMedia}
+                  image={project.image}
+                  title={project.title}
+                />
                 <CardActions>
                   <a href={project.repository} target="_blank" rel="noreferrer">
                     Github Repository
