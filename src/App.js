@@ -16,18 +16,18 @@ function App() {
         sections={sections}
         setCurrentCategory={setCurrentCategory}
         currentCategory={currentCategory}
-      ></Nav>
+      />
+
       <main>
-        <Portfolio></Portfolio>
-        <About></About>
-        {/* TODO:replace picture */}
-        <img
-          src={coverImage}
-          className="my-2"
-          style={{ width: "50%" }}
-          alt="Denisse Rivera"
-        />
-        <ContactForm></ContactForm>
+        {currentCategory === "About Me" ? (
+          <About />
+        ) : currentCategory === "Portfolio" ? (
+          <Portfolio />
+        ) : currentCategory === "Contact" ? (
+          <ContactForm />
+        ) : (
+          <About />
+        )}
       </main>
     </div>
   );
