@@ -7,15 +7,19 @@ function ContactForm() {
     message: "",
   });
   const { name, email, message } = formState;
-
+  function handleSubmit(e) {
+    e.preventDefault();
+    console.log(formState);
+  }
   function handleChange(e) {
+    // 'name' property on 'target' refers to name attribute of the form element.
     setFormState({ ...formState, [e.target.name]: e.target.value });
   }
-  console.log(formState);
+
   return (
     <section>
       <h1> Contact me</h1>
-      <form id="contact-form">
+      <form id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
           {/* onChange will ensure the handleChange function fires whenever a keystroke is typed into the input field for name */}
