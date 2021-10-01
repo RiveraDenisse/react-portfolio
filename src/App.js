@@ -5,6 +5,7 @@ import Portfolio from "./components/Portfolio";
 import ContactForm from "./components/Contact";
 import "./App.css";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   const [sections] = useState(["About me", "Contact", "Portfolio", "Resume"]);
@@ -30,6 +31,7 @@ function App() {
           <About />
         )}
       </main>
+      <Footer />
     </div>
   );
 }
