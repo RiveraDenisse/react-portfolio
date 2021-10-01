@@ -4,7 +4,7 @@ import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import ContactForm from "./components/Contact";
 import "./App.css";
-import coverImage from "./assets/portfolioimage.png";
+import Header from "./components/Header";
 
 function App() {
   const [sections] = useState(["About me", "Contact", "Portfolio", "Resume"]);
@@ -12,12 +12,13 @@ function App() {
 
   return (
     <div>
-      <Nav
-        sections={sections}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-      />
-
+      <Header>
+        <Nav
+          sections={sections}
+          setCurrentCategory={setCurrentCategory}
+          currentCategory={currentCategory}
+        />
+      </Header>
       <main>
         {currentCategory === "About Me" ? (
           <About />
