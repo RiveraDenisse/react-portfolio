@@ -298,3 +298,12 @@ a {
   text-align: center;
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
 }
+
+.skills {
+  display: grid;
+  grid-auto-rows: minmax(100px, auto);
+  gap: 20px;
+  grid-auto-flow: dense;
+  grid-template-columns: 1fr 2fr;
+  align-content: flex-start;
+}

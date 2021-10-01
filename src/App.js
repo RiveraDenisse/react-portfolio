@@ -6,6 +6,7 @@ import ContactForm from "./components/Contact";
 import "./App.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Resume from "./components/Resume";
 
 function App() {
   const [sections] = useState(["About me", "Contact", "Portfolio", "Resume"]);
@@ -27,6 +28,8 @@ function App() {
           <Portfolio />
         ) : currentCategory === "Contact" ? (
           <ContactForm />
+        ) : currentCategory === "Resume" ? (
+          <Resume />
         ) : (
           <About />
         )}
