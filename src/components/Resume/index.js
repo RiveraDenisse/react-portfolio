@@ -33,7 +33,7 @@ function Resume() {
         </div>
       </div>
       <div>
-        <a href="/DenisseRivera.pdf" target="_blank" download>
+        <a href="../../public/DenisseRivera.pdf" target="_blank" download>
           {" "}
           Click here to download my resume
         </a>
