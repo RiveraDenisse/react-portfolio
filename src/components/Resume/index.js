@@ -3,7 +3,8 @@ import React from "react";
 function Resume() {
   return (
     <div>
-      <h3>Proficiencies</h3>
+      <h2 className="App">Resume</h2>
+      <h4>Proficiencies</h4>
       <div className="skills">
         <div>
           <ul>
