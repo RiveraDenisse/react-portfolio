@@ -67,7 +67,7 @@ function Gallery() {
   return (
     <div>
       <Container className={classes.cardGrid} maxWidth="xl">
-        <Typography variant="h2">Projects</Typography>
+        <h2 className="App">Projects</h2>
         <Grid container spacing={4} style={{ marginTop: "4rem" }}>
           {portfolio.map((project, index) => (
             <Grid item key={index} xs={12} sm={6} md={4}>
