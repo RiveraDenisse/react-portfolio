@@ -1,4 +1,6 @@
 import React from "react";
+// import Link from "@material-ui/core/Link";
+import resume from "../../assets/DenisseRivera.pdf";
 
 function Resume() {
   return (
@@ -33,9 +35,8 @@ function Resume() {
         </div>
       </div>
       <div>
-        <a href="../../public/DenisseRivera.pdf" target="_blank" download>
-          {" "}
-          Click here to download my resume
+        <a href={resume} download="DRivera_Resume">
+          Download Resume
         </a>
       </div>
     </div>
