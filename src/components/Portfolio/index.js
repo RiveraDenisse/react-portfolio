@@ -14,6 +14,8 @@ import passwordGen from "../../assets/img/passwordgen.png";
 import dinner from "../../assets/img/dinnernmovie.png";
 import hi5 from "../../assets/img/hi5.png";
 import useStyles from "../../style";
+import budget from "../../assets/img/pwa-budget-app.png";
+import noteTaker from "../../assets/img/noteTaker.png";
 
 const portfolio = [
   {
@@ -43,6 +45,20 @@ const portfolio = [
     website: "https://evening-oasis-97339.herokuapp.com/",
     image: hi5,
     repository: "https://github.com/RiveraDenisse/high-five",
+  },
+  {
+    Project: 5,
+    title: "Budget App",
+    website: "https://ancient-ravine-45057.herokuapp.com/",
+    image: budget,
+    repository: "https://github.com/RiveraDenisse/pwa_budget_tracker",
+  },
+  {
+    Project: 6,
+    title: "Note Taker",
+    website: "https://dry-badlands-45060.herokuapp.com/",
+    image: noteTaker,
+    repository: "https://github.com/RiveraDenisse/note-taker",
   },
 ];
 
