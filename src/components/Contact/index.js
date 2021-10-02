@@ -22,7 +22,7 @@ function ContactForm() {
       console.log(isValid);
       //is Valid conditional statement
       if (!isValid) {
-        setErrorMessage("Your email is invalid.");
+        setErrorMessage("your email is invalid.");
       } else {
         setErrorMessage("");
       }
