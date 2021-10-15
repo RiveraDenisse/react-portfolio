@@ -16,14 +16,15 @@ import hi5 from "../../assets/img/hi5.png";
 import useStyles from "../../style";
 import budget from "../../assets/img/pwa-budget-app.png";
 import noteTaker from "../../assets/img/noteTaker.png";
+import farmgo from "../../assets/img/farmgo.png";
 
 const portfolio = [
   {
     Project: 1,
-    title: "Horiseon",
-    website: "https://riveradenisse.github.io/HoriseonW1/",
-    image: Horiseon,
-    repository: "https://github.com/RiveraDenisse/HoriseonW1",
+    title: "FarmGo",
+    website: "https://farm-gomarket.herokuapp.com/",
+    image: farmgo,
+    repository: "https://github.com/RiveraDenisse/farm-go",
   },
   {
     Project: 2,
@@ -59,6 +60,13 @@ const portfolio = [
     website: "https://dry-badlands-45060.herokuapp.com/",
     image: noteTaker,
     repository: "https://github.com/RiveraDenisse/note-taker",
+  },
+  {
+    Project: 7,
+    title: "Horiseon",
+    website: "https://riveradenisse.github.io/HoriseonW1/",
+    image: Horiseon,
+    repository: "https://github.com/RiveraDenisse/HoriseonW1",
   },
 ];
 
