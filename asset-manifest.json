@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.60b91dde.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.73e7ba28.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.73e7ba28.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.cb481f82.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.cb481f82.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.f25504d2.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.f25504d2.js.map",
     "static/js/2.b48f2a8d.chunk.js": "/react-portfolio/static/js/2.b48f2a8d.chunk.js",
@@ -16,6 +16,7 @@
     "static/media/Github.bfe22a7c.svg": "/react-portfolio/static/media/Github.bfe22a7c.svg",
     "static/media/Horiseon.46f2e437.png": "/react-portfolio/static/media/Horiseon.46f2e437.png",
     "static/media/dinnernmovie.1f3a76e7.png": "/react-portfolio/static/media/dinnernmovie.1f3a76e7.png",
+    "static/media/farmgo.4eff9e9b.png": "/react-portfolio/static/media/farmgo.4eff9e9b.png",
     "static/media/hi5.5ddaa2a3.png": "/react-portfolio/static/media/hi5.5ddaa2a3.png",
     "static/media/linkedin.ada11cda.svg": "/react-portfolio/static/media/linkedin.ada11cda.svg",
     "static/media/noteTaker.a3e35ed1.png": "/react-portfolio/static/media/noteTaker.a3e35ed1.png",
@@ -28,6 +29,6 @@
     "static/js/runtime-main.f25504d2.js",
     "static/js/2.b48f2a8d.chunk.js",
     "static/css/main.60b91dde.chunk.css",
-    "static/js/main.73e7ba28.chunk.js"
+    "static/js/main.cb481f82.chunk.js"
   ]
 }
